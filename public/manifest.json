@@ -1,0 +1,9 @@
+{
+  "short_name": "Banks Finder",
+  "name": "Find Your Bank",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4299e1",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  background-color: #f1f1f17e;
+  margin: 0.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-qidth: 767px) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 0.8rem;
+  }
+}

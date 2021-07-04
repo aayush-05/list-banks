@@ -1,0 +1,39 @@
+.pagination_container {
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 600;
+  justify-content: flex-end;
+  line-height: 2rem;
+  margin-top: 1rem;
+  width: 100%;
+
+  .pagination_input_container {
+    border: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 4px 15px 0px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 2.5rem;
+    outline: 0;
+    padding: 0.5rem;
+    width: 4rem;
+  }
+
+  img {
+    cursor: pointer;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+  }
+
+  .left_arrow {
+    transform: rotate(180deg);
+  }
+
+  p {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
