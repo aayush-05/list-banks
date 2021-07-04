@@ -54,7 +54,7 @@ const FilterContainer = ({
     setSearchQuery(value);
     for (let bankDetails of currentApiData) {
       if (bankDetails[selectedCategory]
-        .toLowerCase().includes(value)
+        .toLowerCase().includes(value.toLowerCase())
       ) {
         searchBanksList.push(bankDetails);
       }
